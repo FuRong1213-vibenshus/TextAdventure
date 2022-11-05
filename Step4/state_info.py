@@ -3,8 +3,7 @@ from States import hauntedroom_state, mainentrance_state, skeletonroom_state, sh
 states = [{'name':'mainentrance', 'on_exit': ['say_goodbye'], 'on_enter': ['say_hello']}, 
           {'name':'hauntedroom', 'on_exit': ['say_goodbye'], 'on_enter': ['say_hello']},
           {'name':'skeletonroom', 'on_exit': ['say_goodbye'], 'on_enter': ['say_hello']},
-          {'name':'shadowfigure', 'on_exit': ['say_goodbye'], 'on_enter': ['say_hello']},
-          #{'name':'exit', 'on_exit': ['say_goodbye'], 'on_enter':['say_hello']}
+          {'name':'shadowfigure', 'on_exit': ['say_goodbye'], 'on_enter': ['say_hello']}
         ]
 
 state_class_dict = {"mainentrance": mainentrance_state.MainEntranceState, 
@@ -16,7 +15,7 @@ transitions=[
     {'trigger': 'west',  'source':'mainentrance', 'dest':'shadowfigure'},
     {'trigger': 'south', 'source':'mainentrance', 'dest':'hauntedroom'},
     {'trigger': 'north', 'source':'mainentrance', 'dest':'skeletonroom'},
-    {'trigger': 'east',  'source':'mainentrance', 'dest':'mainentrancew'},
+    {'trigger': 'east',  'source':'mainentrance', 'dest':'mainentrance'},
     {'trigger': 'north', 'source':'skeletonroom', 'dest':'skeletonroom'},
     {'trigger': 'south', 'source':'skeletonroom', 'dest':'mainentrance'},
     {'trigger': 'east',  'source':'shadowfigure','dest':'mainentrance'},

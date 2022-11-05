@@ -6,7 +6,7 @@ class ShadowFigureState(State):
     
     
     def say_hello(self):
-        print("You are entering the shadow figure !")
+        print("You are entering the shadow figure, you are killed !")
         return "quit"
     
     def say_goodbye(self):
