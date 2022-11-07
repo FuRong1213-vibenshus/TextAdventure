@@ -14,7 +14,7 @@ class MyAdventureGame():
         self.skeletonroom.add_neighbour('west', self.mainentrance)
     
     def __init__(self):
-        self.hauntedroom =      hauntedroom.HauntedRoom()
+        self.hauntedroom =  hauntedroom.HauntedRoom()
         self.mainentrance = mainentrance.MainEntrance()
         self.skeletonroom = skeletonroom.SkeletonRoom()
         self.shadowfigure = shadowfigure.ShadowFigure()

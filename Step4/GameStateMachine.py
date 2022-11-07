@@ -1,4 +1,5 @@
 import state_info
+
 class GameMachine:
     def __init__(self):
         self.state_dict = {}

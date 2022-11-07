@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from .room import Room
 
 class MainEntrance(Room):

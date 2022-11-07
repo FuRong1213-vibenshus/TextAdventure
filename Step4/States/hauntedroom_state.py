@@ -8,6 +8,6 @@ class HauntedRoomState(State):
         print("You are entering the haunted room!")
         return "quit"
     def say_goodbye(self):
-        print("You are leaving the skeleton room!")
+        print("You are leaving the haunted room!")
 
     

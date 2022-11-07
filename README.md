@@ -1,26 +1,30 @@
 # TextAdventure
 
 This repo is used to store all the projects that implementing the game Text Adventure, in a way so called "stepvis improvement"". 
-We start by analysing a simple game written in structure of imperitive / functional programming
+We start by analysing a simple game written in structure of imperitive / procedure programming. Herby our first concept is introduced:
+
+## Programing Paradigm
+The definitions of paragraming paradigm can be found in the book "Programmering" from systime **[Programmeringsparadigmer](https://https://programmering.systime.dk/?id=178)**.
+
 
 > **Further Reading: Programming paradigme**
   > - https://da.wikipedia.org/wiki/Programmeringsparadigme
   > - https://da.alegsaonline.com/art/79379
 
 
-In the following 4-5 weekes, we are going to focus on re-writting the game while adding the following new features and concepts
+In the following 4-5 weekes, we are going to focus on re-writting the code of this game while adding the following new features and concepts
 
-* Class and inheritance
+* Classes and inheritance
 * Flow chart and UML diagram
 * Modules and packages
-* Design Principles and Design Patterns 
-  - State pattern
+* Design Principles and Design Patterns* 
+  - State pattern*
 
-During the project, you should be able to handle the following skills:
+The goal of this project is to let you gain the following skills:
 * Analysis and illustrate code structure by class diagram UML and/or flow chart.
 * Apply advanced constructions in your programming, i.e. object-oriented programming with Polymorphism. 
 * Organize your code into modules and packages. 
-* Be able to code in a more well-structured way and give argumentation (design patterns and principles). 
+* Be able to code in a more well-structured way and give argumentation* (design patterns and principles). 
 
 
 ## Introduction
@@ -29,15 +33,19 @@ The game "text adventure" is a type of IF (Interactive Fiction), here is one exa
 https://eblong.com/zarf/zweb/dreamhold/
 
 ## Step 1
-In this step we start to look at the game that are coded in the way of "functional programming". 
+In this step we start to look at the game that are coded in the way of "procedural programming". 
 
 * We should describe the internal logic of the game with flow chart
 
 ### **Flow chart**
 
+This article [Rutediagrammer](https://programmering.systime.dk/?id=148) introduces the basic technical skills of drawing flow chart.
+
 > **Further reading: Flow Chart**
+
   > - https://en.wikipedia.org/wiki/Flowchart#Common_symbols
 
+### **Function calls\***
 > **Extra Reading: funcation calls and memory management**
  > - https://www.youtube.com/watch?v=OdQSWuG78Sk
  > - https://eecs280staff.github.io/notes/02_ProceduralAbstraction_Testing.html 
@@ -51,10 +59,14 @@ In this step, we should
 * Organize the code into modules and packages
 
 ### **Class inheritance and polymorphism**
-- Explanation:
-https://www.programiz.com/python-programming/polymorphism
+- Some useful reading materials: 
+  * **[Objektorienteret Programmering](https://programmering.systime.dk/?id=207)**
+  * https://thepythonguru.com/python-inheritance-and-polymorphism/
+  * https://www.programiz.com/python-programming/polymorphism
+  * https://www.geeksforgeeks.org/difference-between-inheritance-and-polymorphism/
 
 - Exercises: https://pynative.com/python-object-oriented-programming-oop-exercise/
+
 
 ### **Class diagram**
 *Do it yourself*: read through the UML tutuorial https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/ and try answer the following questions:
@@ -83,16 +95,41 @@ https://docs.python.org/3/tutorial/modules.html
 - what is \_\_init__.py in a package ?
 
 
+## Step 3
+
+We are going to refactor our code by adding more consideration in software design principles and eventually, applying the state pattern to achieve a cleaner, better maintainable result.
+
+### **Design Principles SOLID\***
+This article explains the SOLID principles in software design. https://towardsdatascience.com/solid-coding-in-python-1281392a6a94
+
+
+
+### **Design Pattern\*** 
+#### **Concept**
+> **Further reading**
+> (For them are interested, not but required)
+> https://www.netsolutions.com/insights/software-design-pattern/
+#### **State pattern**
+
+https://refactoring.guru/design-patterns/state/python/example 
+
+>**Do it yourself**: Draw the class diagram uml of this code. [state_concepts.py]()
+
+#### **Implementation**
+I am using this package [transitions](https://github.com/pytransitions/transitions#hsm) for the part of state machine implementation in step 4. 
+
+
+
 ## Home Work
-> - Change the codes of text adventure in Step1 into object oriented. You can follow the steps:
->> 1. Make a list of all the involved objects in the game. 
->> 2. Add the attributes and operations (methods) to each object (class) 
->> 3. Draw the UML class diagram. 
->> 4. Implement according to the UML (Optional, can wait til next time)
+- Change the codes of text adventure in Step1 into object oriented. You can follow the steps:
+  1. Make a list of all the involved objects in the game. 
+  2. Add the attributes and operations (methods) to each object (class) 
+  3. Draw the UML class diagram. 
+  4. Implement according to the UML (Optional, can wait til next time)
 
 Or if you'd rather make you own story
-> - Make a sketch (in words or drawing or both) of your own text adventure game. It must include at least four scenes, two characters, some inventories to collect and a win condition.
-> - Follow the 1,2,3,4 from above
+- Make a sketch (in words or drawing or both) of your own text adventure game. It must include at least four scenes, two characters, some inventories to collect and a win condition.
+- Follow the 1,2,3,4 from above
 
 
 

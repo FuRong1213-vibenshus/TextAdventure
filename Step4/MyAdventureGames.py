@@ -1,9 +1,9 @@
-
 from transitions import Machine
 import GameStateMachine
 import state_info
-class MyAdventureGame():
-    
+
+
+class MyAdventureGame():    
     def __init__(self):
         # Initialize
         self.game_state_machine = GameStateMachine.GameMachine()
