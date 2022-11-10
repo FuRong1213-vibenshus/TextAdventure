@@ -2,35 +2,29 @@ from Rooms import mainentrance, hauntedroom, skeletonroom
 from Places import shadowfigure
 import numpy as np
 from .map import Map
-import os
+from pathlib import Path
 map_width = 3
 map_height = 2
 map_file = "map.txt"
 
 place_class_dict = {"mainentrance": mainentrance.MainEntrance, 
-                    "hauntedroom": hauntedroom.HauntedRoom,
+                    "hauntedroom" : hauntedroom.HauntedRoom,
                     "shadowfigure": shadowfigure.ShadowFigure,
                     "skeletonroom": skeletonroom.SkeletonRoom}
 
 class LoadMap:
     def __init__(self):
         self.game_map = Map()
-        __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-
-        self.entity_list = open(os.path.join(__location__, map_file)).read().split()
+        p = Path(__file__).with_name(map_file)
+        with p.open('r') as f:
+            self.entity_list = f.read().split()
+        f.close()
         self.build_map()
         self.print_map()
     
     def print_map(self):
-        print("Game map is built!")
-        for key in self.game_map.location_map:
-            entity = self.game_map.location_map[key]
-            print( entity )
-            print( "----west neighbour: ", entity.west)
-            print( "----esat neighbour: ", entity.east)
-            print( "----south neighbour: ", entity.south)
-            print( "----north neighbour: ", entity.north)
-
+        print(self.game_map)
+    
     def add_neighbour(self, i,j, entity):
         if(i>0 ):
             neighbour = self.game_class_array[i-1][j]

@@ -1,8 +1,7 @@
 class ShadowFigure:
     def __init__(self):
         self.decorate()
-        self.builder()
-    
+        self.builder()    
     def decorate(self):
         pass
     def builder(self):

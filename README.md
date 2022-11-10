@@ -119,6 +119,30 @@ https://refactoring.guru/design-patterns/state/python/example
 I am using this package [transitions](https://github.com/pytransitions/transitions#hsm) for the part of state machine implementation in step 4. 
 
 
+## Step 4
+In thi step our program is improved with a loading function, which can read the a text based map and load the geographical information of scenes as part of the game initialization. 
+
+The goal of this step is to repeat the concept of data types and data processing in python. 
+
+### Data Types
+- list
+- dictionary
+- numpy array 
+
+### Data Processing
+- map
+- [lambda functions](https://www.w3schools.com/python/python_lambda.asp)
+
+
+## Exercise
+- [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers)
+- [A Prize No One Can Win](https://open.kattis.com/problems/)
+- [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma)
+- [Best Relay Team](https://open.kattis.com/problems/bestrelayteam)
+- [SMIL](https://open.kattis.com/problems/smil)
+- [Ferry Loading](https://open.kattis.com/problems/ferryloading4)
+- [A Classy Problem](https://open.kattis.com/problems/classy)
+aprizenoonecanwin)
 
 ## Home Work
 - Change the codes of text adventure in Step1 into object oriented. You can follow the steps:
