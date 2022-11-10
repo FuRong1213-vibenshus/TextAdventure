@@ -69,7 +69,7 @@ In this step, we should
 
 
 ### **Class diagram**
-*Do it yourself*: read through the UML tutuorial https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/ and try answer the following questions:
+*Do it yourself*: read through the [UML tutuorial]( https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) and try answer the following questions:
  - What is UML class diagram ? What can UML class diagram visualize ?
  - What are the three main components in the UML Class notation
  - This tutorial https://www.gleek.io/blog/class-diagram-arrows.html introduced several relations between classes. In our project, we are going to use the following ones. Make sure that you understand the meaning of these relations.
@@ -113,7 +113,7 @@ This article explains the SOLID principles in software design. https://towardsda
 
 https://refactoring.guru/design-patterns/state/python/example 
 
->**Do it yourself**: Draw the class diagram uml of this code. [state_concepts.py]()
+>**Do it yourself**: Draw the class diagram uml of this code. [state_concepts.py](https://github.com/FuRong1213-vibenshus/TextAdventure/blob/a513665ff777145cdc6a1f0149fba91f05208cec/state_concepts.py)
 
 #### **Implementation**
 I am using this package [transitions](https://github.com/pytransitions/transitions#hsm) for the part of state machine implementation in step 4. 
@@ -125,7 +125,8 @@ I am using this package [transitions](https://github.com/pytransitions/transitio
   1. Make a list of all the involved objects in the game. 
   2. Add the attributes and operations (methods) to each object (class) 
   3. Draw the UML class diagram. 
-  4. Implement according to the UML (Optional, can wait til next time)
+  4. Implement according to the UML. 
+  5. Organize the project into properly modules and packages *
 
 Or if you'd rather make you own story
 - Make a sketch (in words or drawing or both) of your own text adventure game. It must include at least four scenes, two characters, some inventories to collect and a win condition.
