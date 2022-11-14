@@ -120,7 +120,7 @@ The goal of this step is to repeat the concept of data types and data processing
 
 ## Exercise
 
-- [A Prize No One Can Win](https://open.kattis.com/problems/aprizenonecanwin)
+- [A Prize No One Can Win](https://open.kattis.com/problems/aprizenoonecanwin)
 - [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma)
 - [Best Relay Team](https://open.kattis.com/problems/bestrelayteam)
 - [SMIL](https://open.kattis.com/problems/smil)
