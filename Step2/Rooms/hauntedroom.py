@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from .room import Room
 
 class HauntedRoom(Room):
@@ -14,6 +13,6 @@ class HauntedRoom(Room):
             print("looks like you can only go back")
             userInput = input()
         self.get_neighbour(userInput).run()
-        return NULL
+        
 
     

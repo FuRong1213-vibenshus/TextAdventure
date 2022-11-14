@@ -1,6 +1,8 @@
-#import Rooms 
-from Rooms import hauntedroom, mainentrance, skeletonroom
-from Places import shadowfigure
+import Rooms 
+import Places
+
+#from Rooms import hauntedroom, mainentrance, skeletonroom
+#from Places import shadowfigure
 
 
 class MyAdventureGame():
@@ -14,10 +16,10 @@ class MyAdventureGame():
         self.skeletonroom.add_neighbour('west', self.mainentrance)
     
     def __init__(self):
-        self.hauntedroom =  hauntedroom.HauntedRoom()
-        self.mainentrance = mainentrance.MainEntrance()
-        self.skeletonroom = skeletonroom.SkeletonRoom()
-        self.shadowfigure = shadowfigure.ShadowFigure()
+        self.hauntedroom =  Rooms.hauntedroom.HauntedRoom()
+        self.mainentrance = Rooms.mainentrance.MainEntrance()
+        self.skeletonroom = Rooms.skeletonroom.SkeletonRoom()
+        self.shadowfigure = Places.shadowfigure.ShadowFigure()
         self.__create_location_map()
 
     def run(self):

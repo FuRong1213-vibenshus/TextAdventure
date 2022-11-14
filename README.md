@@ -28,7 +28,6 @@ The goal of this project is to let you gain the following skills:
 
 
 ## Introduction
-
 The game "text adventure" is a type of IF (Interactive Fiction), here is one example:
 https://eblong.com/zarf/zweb/dreamhold/
 
@@ -42,7 +41,6 @@ In this step we start to look at the game that are coded in the way of "procedur
 This article [Rutediagrammer](https://programmering.systime.dk/?id=148) introduces the basic technical skills of drawing flow chart.
 
 > **Further reading: Flow Chart**
-
   > - https://en.wikipedia.org/wiki/Flowchart#Common_symbols
 
 ### **Function calls\***
@@ -82,7 +80,7 @@ In this step, we should
 
 ### **Packages and Modules**
 
-Read through the tutorial of python modules and try to answer the following question
+Read **Carfully** through the tutorial of python modules and try to answer the following question
 https://docs.python.org/3/tutorial/modules.html
 
 - What is a module in python and why do we need "modules"?
@@ -90,12 +88,49 @@ https://docs.python.org/3/tutorial/modules.html
 - How do we make a module which are both executable and importable (by using the variable __name__)? 
 - In how many ways can you import a module ?
 - What can standard module sys do ?
-
 - what is packages ?
 - what is \_\_init__.py in a package ?
 
+### Do it yourself
+- try to make a small project as described in this link
+https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html
+- Analyse the dependencies in step2 
+  - by hand
+  - by tools pydeps https://github.com/thebjorn/pydeps
 
 ## Step 3
+In thi step our program is improved with a loading function, which can read the a text based map and load the geographical information of scenes as part of the game initialization. 
+
+The goal of this step is to repeat the concept of data types and data processing in python. 
+
+### Data Types
+- [list](https://docs.python.org/3/tutorial/datastructures.html)
+  * [W3school](https://www.w3schools.com/python/python_lists.asp)
+  * [Programiz](https://www.programiz.com/python-programming/list)
+- [dictionary](https://docs.python.org/3/tutorial/datastructures.html#dictionaries)
+  * [W3school](https://www.w3schools.com/python/python_dictionaries.asp)
+  * [RealPython](https://realpython.com/python-dicts/)
+- [numpy array](https://numpy.org/doc/stable/reference/generated/numpy.array.html)
+  * [Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/02.00-introduction-to-numpy.html) 
+
+### Data Processing
+- [map](https://realpython.com/python-map-function/) 
+- [lambda functions](https://www.w3schools.com/python/python_lambda.asp)
+
+
+## Exercise
+
+- [A Prize No One Can Win](https://open.kattis.com/problems/aprizenonecanwin)
+- [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma)
+- [Best Relay Team](https://open.kattis.com/problems/bestrelayteam)
+- [SMIL](https://open.kattis.com/problems/smil)
+- [Ferry Loading](https://open.kattis.com/problems/ferryloading4)
+- [A Classy Problem](https://open.kattis.com/problems/classy)
+- [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers)
+
+
+
+## Step 4
 
 We are going to refactor our code by adding more consideration in software design principles and eventually, applying the state pattern to achieve a cleaner, better maintainable result.
 
@@ -119,30 +154,6 @@ https://refactoring.guru/design-patterns/state/python/example
 I am using this package [transitions](https://github.com/pytransitions/transitions#hsm) for the part of state machine implementation in step 4. 
 
 
-## Step 4
-In thi step our program is improved with a loading function, which can read the a text based map and load the geographical information of scenes as part of the game initialization. 
-
-The goal of this step is to repeat the concept of data types and data processing in python. 
-
-### Data Types
-- list
-- dictionary
-- numpy array 
-
-### Data Processing
-- map
-- [lambda functions](https://www.w3schools.com/python/python_lambda.asp)
-
-
-## Exercise
-- [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers)
-- [A Prize No One Can Win](https://open.kattis.com/problems/)
-- [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma)
-- [Best Relay Team](https://open.kattis.com/problems/bestrelayteam)
-- [SMIL](https://open.kattis.com/problems/smil)
-- [Ferry Loading](https://open.kattis.com/problems/ferryloading4)
-- [A Classy Problem](https://open.kattis.com/problems/classy)
-aprizenoonecanwin)
 
 ## Home Work
 - Change the codes of text adventure in Step1 into object oriented. You can follow the steps:
