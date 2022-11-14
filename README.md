@@ -86,7 +86,7 @@ https://docs.python.org/3/tutorial/modules.html
 - What is a module in python and why do we need "modules"? josef
 - How to get access the module name ? fabian
 - How do we make a module which are both executable and importable (by using the variable __name__) alfred? 
-- In how many ways can you import a module (willim)?
+- In how many ways can you import a module (william)?
 - What can standard module sys do Dona?
 - what is packages sahel?
 - what is \_\_init__.py in a package (anna thore)?
