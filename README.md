@@ -94,6 +94,7 @@ https://docs.python.org/3/tutorial/modules.html
 ### Do it yourself
 - try to make a small project as described in this link
 https://timothybramlett.com/How_to_create_a_Python_Package_with___init__py.html
+Follow the steps and feel how modules are imported through packages.
 - Analyse the dependencies in step2 
   - by hand
   - by tools pydeps https://github.com/thebjorn/pydeps
@@ -117,9 +118,7 @@ The goal of this step is to repeat the concept of data types and data processing
 - [map](https://realpython.com/python-map-function/) 
 - [lambda functions](https://www.w3schools.com/python/python_lambda.asp)
 
-
 ## Exercise
-
 - [A Prize No One Can Win](https://open.kattis.com/problems/aprizenoonecanwin)
 - [Heir's Dilemma](https://open.kattis.com/problems/heirsdilemma)
 - [Best Relay Team](https://open.kattis.com/problems/bestrelayteam)
@@ -129,9 +128,7 @@ The goal of this step is to repeat the concept of data types and data processing
 - [Harshad Numbers](https://open.kattis.com/problems/harshadnumbers)
 
 
-
 ## Step 4
-
 We are going to refactor our code by adding more consideration in software design principles and eventually, applying the state pattern to achieve a cleaner, better maintainable result.
 
 ### **Design Principles SOLID\***
