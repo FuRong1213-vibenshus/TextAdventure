@@ -18,6 +18,7 @@ class LoadMap:
         p = Path(__file__).with_name(map_file)
         with p.open('r') as f:
             self.entity_list = f.read().split()
+            print(self.entity_list)
         f.close()
         self.build_map()
         self.print_map()

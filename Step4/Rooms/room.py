@@ -16,7 +16,6 @@ class Room:
     
     def decorate(self):
         pass
-
     def builder(self):
         self.south = None  
         self.north = None
