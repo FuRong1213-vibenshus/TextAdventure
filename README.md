@@ -145,7 +145,12 @@ This article explains the SOLID principles in software design. https://towardsda
 
 https://refactoring.guru/design-patterns/state/python/example 
 
->**Do it yourself**: Draw the class diagram uml of this code. [state_concepts.py](https://github.com/FuRong1213-vibenshus/TextAdventure/blob/a513665ff777145cdc6a1f0149fba91f05208cec/state_concepts.py)
+>**Do it yourself**: 
+
+Run the code yourself and draw the class diagram uml of this code. [state_concepts.py](https://github.com/FuRong1213-vibenshus/TextAdventure/blob/a513665ff777145cdc6a1f0149fba91f05208cec/state_concepts.py)
+
+check your answer by refering to this article https://en.wikipedia.org/wiki/State_pattern
+
 
 #### **Implementation**
 I am using this package [transitions](https://github.com/pytransitions/transitions#hsm) for the part of state machine implementation in step 4. 
