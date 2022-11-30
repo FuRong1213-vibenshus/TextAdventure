@@ -146,10 +146,9 @@ This article explains the SOLID principles in software design. https://towardsda
 https://refactoring.guru/design-patterns/state/python/example 
 
 >**Do it yourself**: 
-
-Run the code yourself and draw the class diagram uml of this code. [state_concepts.py](https://github.com/FuRong1213-vibenshus/TextAdventure/blob/a513665ff777145cdc6a1f0149fba91f05208cec/state_concepts.py)
-
-check your answer by refering to this article https://en.wikipedia.org/wiki/State_pattern
+  - draw the class diagram uml of the example https://refactoring.guru/design-patterns/state/python/example 
+  check your answer by refering to this article https://en.wikipedia.org/wiki/State_pattern
+  - Run the code yourself  [state_concepts.py](https://github.com/FuRong1213-vibenshus/TextAdventure/blob/a513665ff777145cdc6a1f0149fba91f05208cec/state_concepts.py) and explain the code behaviour
 
 
 #### **Implementation**
